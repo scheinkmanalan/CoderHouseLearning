@@ -1,0 +1,46 @@
+/* Custom styles for the page */
+
+/* Logo Styles */
+.logo {
+    width: 10rem;
+    max-height: 60px;
+}
+
+/* Banner Styles */
+.image-container {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.image-overlay {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: lightblue;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+/* Button Styles */
+.btn-reservar {
+    background-color: #ec144c;
+  }
+
+/* Social Icons Styles */
+footer .fab {
+    font-size: 2rem;
+    margin: 0 5px;
+}
