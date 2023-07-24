@@ -34,12 +34,6 @@
     font-size: 30px;
 }
 
-.card-img-top {
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-}
 
 /* Button Styles */
 .btn-reservar {
