@@ -50,3 +50,21 @@ footer .fab {
     font-size: 2rem;
     margin: 0 5px;
 }
+
+.latampass-options {
+    text-align: center;
+  }
+
+  .latampass-options h2 {
+    margin-bottom: 20px;
+  }
+
+  .latampass-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .latampass-options li {
+    margin-bottom: 10px;
+  }
