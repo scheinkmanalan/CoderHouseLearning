@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estado de Vuelo - Vuelos baratos con Latam Airlines</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <a href="../index.html"><img class="logo" src="../img/latamlogo.png" alt="Logo"></a>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <nav>
+              <ul class="menu">
+                <li class="menu-item"><a href="ofertaVuelos.html">Ofertas y Destinos</a></li>
+                <li class="menu-item"><a href="misviajes.html">Mis Viajes</a></li>
+                <li class="menu-item"><a href="centrodeayuda.html">Centro de ayuda</a></li>
+                <li class="menu-item"><a href="estadodevuelo.html">Estado de vuelo</a></li>
+                <li class="menu-item"><a href="latampass.html">Latam Pass</a></li>
+                <li class="menu-item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="estado-vuelo">
+        <h2>Estado de Vuelo</h2>
+        <div class="formulario">
+            <label for="numero-vuelo">Número de Vuelo:</label>
+            <input type="text" id="numero-vuelo" name="numero-vuelo">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+            <button type="button" class="button-styling">Buscar</button>
+        </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <ul class="social-icons">
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    </form>
+</body>
+</html>
