@@ -3,7 +3,7 @@
 /* Logo Styles */
 .logo {
     width: 10rem;
-    max-height: 60px;
+    max-height: 10px;
 }
 
 /* Banner Styles */
@@ -33,6 +33,12 @@
     font-weight: lighter;
     font-size: 30px;
 }
+
+.card-img-top {
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    }
 
 /* Button Styles */
 .btn-reservar {
