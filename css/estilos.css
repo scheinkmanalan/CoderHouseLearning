@@ -2,6 +2,9 @@
   width: 10rem;
   max-height: 60px; }
 
+h1 {
+  font-size: 2rem; }
+
 .image-container {
   width: 75%;
   margin: 0 auto;

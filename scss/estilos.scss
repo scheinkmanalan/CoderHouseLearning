@@ -1,13 +1,15 @@
-// Definición de variables de colores
-$primary-color: #EC144C;
-$secondary-color: #EC1CEC;
-$mobile-primary-color: #FF5733;
-$mobile-secondary-color: #FFB733;
+// Importo archivo de variables generales
+@import "./variables.scss";
 
 // Logo Styles
 .logo {
     width: 10rem;
     max-height: 60px;
+}
+
+// Estilos para el h1
+h1 {
+    font-size: 2rem;
 }
 
 // Banner Styles
