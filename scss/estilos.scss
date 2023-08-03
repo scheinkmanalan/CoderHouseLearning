@@ -1,3 +1,9 @@
+// Definición de variables de colores
+$primary-color: #EC144C;
+$secondary-color: #EC1CEC;
+$mobile-primary-color: #FF5733;
+$mobile-secondary-color: #FFB733;
+
 // Logo Styles
 .logo {
     width: 10rem;
@@ -39,15 +45,26 @@
 }
 
 // Button Styles
+@mixin button-styles($bg-color, $hover-color) {
+    background-color: $bg-color;
+    background: linear-gradient(to top, $bg-color, $hover-color);
+}
+
 .btn-reservar {
-    background-color: #ec144c;
-    background: linear-gradient(to top, #EC144C, #EC1CEC);
+    @include button-styles($primary-color, $secondary-color);
 }
 
 .btn-reservar:hover {
     color: #14396A !important;
     background: #6ECF7E;
     background: linear-gradient(to top, #6ECF7E, #EC144C);
+}
+
+// Estilos de botón para dispositivos móviles
+@media (max-width: 768px) {
+    .btn-reservar {
+        @include button-styles($mobile-primary-color, $mobile-secondary-color);
+    }
 }
 
 // LatamPass Options Styles

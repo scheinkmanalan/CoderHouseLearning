@@ -26,13 +26,18 @@
   height: 250px; }
 
 .btn-reservar {
-  background-color: #ec144c;
+  background-color: #EC144C;
   background: linear-gradient(to top, #EC144C, #EC1CEC); }
 
 .btn-reservar:hover {
   color: #14396A !important;
   background: #6ECF7E;
   background: linear-gradient(to top, #6ECF7E, #EC144C); }
+
+@media (max-width: 768px) {
+  .btn-reservar {
+    background-color: #FF5733;
+    background: linear-gradient(to top, #FF5733, #FFB733); } }
 
 .latampass-options {
   text-align: center; }
