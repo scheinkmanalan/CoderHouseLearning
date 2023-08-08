@@ -1,9 +1,7 @@
   /* Estilos para el footer */
   footer {
-    position: absolute;
-    bottom: 0;
-    margin-top: 20px;
-    /* Ajusta este valor según tus necesidades */
+    position: fixed; bottom: 0;
+        margin-top: 20px;
     background-color: #2a0088;
     color: white;
     text-align: center;
