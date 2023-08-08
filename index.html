@@ -39,31 +39,40 @@
             </div>
             <div class="col-12 col-md-9">
                 <nav class="navbar navbar-expand-md navbar-dark">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/ofertaVuelos.html">Ofertas y Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/misviajes.html">Mis Viajes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/centrodeayuda.html">Centro de ayuda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/estadodevuelo.html">Estado de vuelo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/latampass.html">Latam Pass</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+                    <!-- Agregar el botón de menú -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Elementos del menú dentro del acordeón -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/ofertaVuelos.html">Ofertas y Destinos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/misviajes.html">Mis Viajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/centrodeayuda.html">Centro de ayuda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/estadodevuelo.html">Estado de vuelo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/latampass.html">Latam Pass</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
     </div>
-    
+
     <!-- Row 2: Banner Image -->
     <div class="container-fluid py-4">
         <div class="row justify-content-center">
@@ -158,17 +167,17 @@
         // JavaScript function to update banner text
         function updateBannerText() {
             const bannerText = document.querySelector(".image-text h1");
-    
+
             if (window.innerWidth <= 768) {
                 bannerText.innerHTML = "¡Vola con LATAM!";
             } else {
                 bannerText.innerHTML = "¡Volá por Sudamérica y el mundo con LATAM Airlines!";
             }
         }
-    
+
         // llamado inicial al metodo para que al cargar la pagina se adecue el texto
         updateBannerText();
-    
+
         // suscribo al evento resize para que al ocurrir invoque al metodo updateBannerText
         window.addEventListener("resize", updateBannerText);
     </script>
