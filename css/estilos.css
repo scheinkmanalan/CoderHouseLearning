@@ -28,19 +28,26 @@ h1 {
 .vuelos {
   height: 250px; }
 
-.btn-base, .btn-reservar, .btn-ver-mas, .btn-otro {
+.btn-base, .btn-reservar,
+.btn-ver-mas,
+.btn-otro {
   background-color: #EC144C;
   background: linear-gradient(to top, #EC144C, #EC1CEC); }
-
-.btn-base:hover, .btn-reservar:hover, .btn-ver-mas:hover, .btn-otro:hover {
-  color: #14396A !important;
-  background: #6ECF7E;
-  background: linear-gradient(to top, #6ECF7E, #EC1CEC); }
+  .btn-base:hover, .btn-reservar:hover,
+  .btn-ver-mas:hover,
+  .btn-otro:hover {
+    color: #14396A !important;
+    background: #6ECF7E;
+    background: linear-gradient(to top, #6ECF7E, #EC1CEC); }
 
 @media (max-width: 768px) {
   .btn-reservar {
     background-color: #FF5733;
-    background: linear-gradient(to top, #FF5733, #FFB733); } }
+    background: linear-gradient(to top, #FF5733, #FFB733); }
+    .btn-reservar:hover {
+      color: #14396A !important;
+      background: #6ECF7E;
+      background: linear-gradient(to top, #6ECF7E, #EC1CEC); } }
 
 .latampass-options {
   text-align: center; }

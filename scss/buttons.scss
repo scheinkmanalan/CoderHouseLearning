@@ -2,26 +2,20 @@
 @mixin button-styles($bg-color, $hover-color) {
     background-color: $bg-color;
     background: linear-gradient(to top, $bg-color, $hover-color);
+
+    &:hover {
+        color: #14396A !important;
+        background: #6ECF7E;
+        background: linear-gradient(to top, #6ECF7E, $secondary-color);
+    }
 }
 
 .btn-base {
     @include button-styles($primary-color, $secondary-color);
 }
 
-.btn-reservar {
-    @extend .btn-base;
-}
-
-.btn-ver-mas {
-    @extend .btn-base;
-}
-
+.btn-reservar,
+.btn-ver-mas,
 .btn-otro {
     @extend .btn-base;
-}
-
-.btn-base:hover {
-    color: #14396A !important;
-    background: #6ECF7E;
-    background: linear-gradient(to top, #6ECF7E, $secondary-color);
 }
