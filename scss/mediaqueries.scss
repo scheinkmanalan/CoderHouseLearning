@@ -1,0 +1,6 @@
+// Estilos de botón para dispositivos móviles
+@media (max-width: 768px) {
+    .btn-reservar {
+        @include button-styles($mobile-primary-color, $mobile-secondary-color);
+    }
+}

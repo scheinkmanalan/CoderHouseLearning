@@ -1,0 +1,15 @@
+// Button Styles
+@mixin button-styles($bg-color, $hover-color) {
+    background-color: $bg-color;
+    background: linear-gradient(to top, $bg-color, $hover-color);
+}
+
+.btn-reservar {
+    @include button-styles($primary-color, $secondary-color);
+}
+
+.btn-reservar:hover {
+    color: #14396A !important;
+    background: #6ECF7E;
+    background: linear-gradient(to top, #6ECF7E, #EC144C);
+}
