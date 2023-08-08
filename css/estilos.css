@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .logo {
   width: 10rem;
   max-height: 60px; }
@@ -62,3 +63,9 @@ h2 {
     margin: 0; }
     .latampass-options ul li {
       margin-bottom: 10px; }
+
+/* Establecer la posición del footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
