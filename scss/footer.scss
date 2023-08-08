@@ -1,7 +1,13 @@
-/* Establecer la posición del footer */
-footer {
+  /* Estilos para el footer */
+  footer {
     position: absolute;
     bottom: 0;
+    margin-top: 20px;
+    /* Ajusta este valor según tus necesidades */
+    background-color: #2a0088;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* Añade un padding superior e inferior */
     width: 100%;
   }
-  
