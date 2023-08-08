@@ -1,6 +1,13 @@
 // Estilos de botón para dispositivos móviles
 @media (max-width: 768px) {
+    //Esto no funciono, lo resolvi con javascript pero lo dejo para consultar mas adelante.
+    // .image-text {
+    //     font-size: 20px;
+    //     content: "¡Vuela con LATAM!";
+    // }
+
     .btn-reservar {
         @include button-styles($mobile-primary-color, $mobile-secondary-color);
     }
 }
+
