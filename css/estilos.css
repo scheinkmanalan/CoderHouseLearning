@@ -51,7 +51,13 @@ h2 {
     .btn-reservar:hover {
       color: #14396A !important;
       background: #6ECF7E;
-      background: linear-gradient(to top, #6ECF7E, #EC1CEC); } }
+      background: linear-gradient(to top, #6ECF7E, #EC1CEC); }
+  .image-text {
+    top: 50px;
+    left: 10px;
+    color: #d7ade6;
+    font-weight: lighter;
+    font-size: 30px; } }
 
 .latampass-options {
   text-align: center; }

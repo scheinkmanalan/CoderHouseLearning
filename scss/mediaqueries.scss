@@ -9,4 +9,13 @@
     .btn-reservar {
         @include button-styles($mobile-primary-color, $mobile-secondary-color);
     }
+
+    // Image Text Styles
+    .image-text {
+        top: 50px;
+        left: 10px;
+        color: rgb(215, 173, 230);
+        font-weight: lighter;
+        font-size: 30px;
+    }
 }
